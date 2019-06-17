@@ -1,0 +1,126 @@
+
+.main-nav{
+    background: #fff !important;
+    .menu{
+        li{
+           padding: 1.25rem 1.5rem;
+           text-align: center;
+           &:nth-child(1){
+               padding-left:0; 
+           }
+           &:hover{
+            // color: #696969;
+            // background-color: transparent;
+            // border-bottom:1px solid #696969;
+            >a{
+                color: #696969;
+                background-color: transparent;
+                border-bottom:1px solid #696969;
+            }
+        }
+           >a{
+            padding: 0;
+            
+           }
+            &.active{
+                >a{
+                   
+                    background-color: transparent;
+                    color: #696969;
+                    border-bottom:1px solid #696969;
+                }
+            }
+        }
+    }
+}
+.header-center{
+
+    .header-search {
+        @include mq(xl){
+            form{
+                width: 360px;
+            }
+        }
+       
+        .btn{
+            border-left: 0;
+
+        }
+        
+    }
+    .btn-text{
+        border: 0;
+        background: transparent;
+        margin-left: 25px;
+        &:focus{
+            outline:none;
+            box-shadow: none;
+           
+        }
+    }
+}
+.header-right{
+    .header-hart{
+        margin: 0 10px;
+        a{
+            &::before{
+                display: inline-block;
+                margin: 2px 0 0;
+                color: #08c;
+                font-family: 'porto';
+                font-size: 2.3rem;
+                line-height: 1;
+                content: '\e889';
+              
+            }
+        }
+    }
+    .header-settings{
+        margin: 0 10px;
+        a{
+            &::before{
+                display: inline-block;
+                margin: 2px 0 0;
+                color: #08c;
+                font-family: 'porto';
+                font-size: 2.3rem;
+                line-height: 1;
+                content: '\e83f';
+                
+            }
+        }
+    }
+    .cart-dropdown{
+        .dropdown-toggle{
+            padding-right: 0;
+            .cart-count{
+                right: -5px;
+                top: -.4rem;
+            }
+            &::before{
+                font-size: 2.3rem;
+            }
+            &::after{
+                content: '';
+            }
+        }
+    }
+}
+.header-middle{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 1px solid $gray-text;
+    border-right: 0;
+    border-left: 0;
+
+
+}
+.header{
+    @include mq(xl){
+        border-top:0;
+        padding-bottom: 0;
+    }
+}
+.header-top{
+    background: transparent;
+}
