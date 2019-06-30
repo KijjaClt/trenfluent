@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/MyFonts/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.css"> -->
+    <!-- </style> -->
+    <!-- Scrollbar Custom CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> -->
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-right">
+                <div class="header-dropdown dropdown-expanded">
+                    <a href="#">Links</a>
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="#">NEED HELP?</a></li>
+                            <li><a href="#">CHART</a></li>
+                            <li><a href="#" class="login-link">LOG IN</a></li>
+                        </ul>
+                    </div><!-- End .header-menu -->
+                </div><!-- End .header-dropown -->
+            </div><!-- End .header-right -->
+        </div><!-- End .container -->
+    </div><!-- End .header-top -->
+
+    <div class="header-middle">
+        <div class="container">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="./images/logos/logo2x.png" alt="Porto Logo">
+                </a>
+            </div><!-- End .header-left -->
+
+            <div class="header-center">
+                <div class="header-search">
+                    <a href="#" class="search-toggle" role="button"><i class="icon-magnifier"></i></a>
+                    <!-- <form action="javascript:searchByPopup()" method="get"> -->
+                        <div class="header-search-wrapper">
+                            <input type="search" class="form-control" placeholder="Search" required>
+                            <button class="btn btn-search-toggle" type="button"><i class="icon-magnifier"></i></button>
+
+                        </div><!-- End .header-search-wrapper -->
+                    <!-- </form> -->
+                </div><!-- End .header-search -->
+                <button class="btn-text">Advanced Search</button>
+            </div><!-- End .headeer-center -->
+
+            <div class="header-right">
+                <button class="mobile-menu-toggler" type="button">
+                    <i class="icon-menu"></i>
+                </button>
+                <div class="header-hart"> </div>
+               
+                <div class="dropdown cart-dropdown">
+                    <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" data-display="static">
+                        <span class="cart-count">2</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdownmenu-wrapper">
+                            <div class="dropdown-cart-products">
+                                <div class="product">
+                                    <div class="product-details">
+                                        <h4 class="product-title">
+                                            <a href="product.html">Woman Ring</a>
+                                        </h4>
+
+                                        <span class="cart-product-info">
+                                            <span class="cart-product-qty">1</span>
+                                            x $99.00
+                                        </span>
+                                    </div><!-- End .product-details -->
+
+                                    <figure class="product-image-container">
+                                        <a href="product.html" class="product-image">
+                                            <img src="./images/products/cart/product-1.jpg" alt="product">
+                                        </a>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i
+                                                class="icon-cancel"></i></a>
+                                    </figure>
+                                </div><!-- End .product -->
+
+                                <div class="product">
+                                    <div class="product-details">
+                                        <h4 class="product-title">
+                                            <a href="product.html">Woman Necklace</a>
+                                        </h4>
+
+                                        <span class="cart-product-info">
+                                            <span class="cart-product-qty">1</span>
+                                            x $35.00
+                                        </span>
+                                    </div><!-- End .product-details -->
+
+                                    <figure class="product-image-container">
+                                        <a href="product.html" class="product-image">
+                                            <img src="./images/products/cart/product-2.jpg" alt="product">
+                                        </a>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i
+                                                class="icon-cancel"></i></a>
+                                    </figure>
+                                </div><!-- End .product -->
+                            </div><!-- End .cart-product -->
+
+                            <div class="dropdown-cart-total">
+                                <span>Total</span>
+
+                                <span class="cart-total-price">$134.00</span>
+                            </div><!-- End .dropdown-cart-total -->
+
+                            <div class="dropdown-cart-action">
+                                <a href="cart.html" class="btn">View Cart</a>
+                                <a href="checkout-shipping.html" class="btn">Checkout</a>
+                            </div><!-- End .dropdown-cart-total -->
+                        </div><!-- End .dropdownmenu-wrapper -->
+                    </div><!-- End .dropdown-menu -->
+                </div>
+                <div class="header-settings">
+                        <a href="#"></a>
+                    </div>
+                <!-- End .dropdown -->
+
+            </div><!-- End .header-right -->
+        </div><!-- End .container -->
+    </div><!-- End .header-middle -->
+
+    <div class="header-bottom sticky-header">
+        <div class="container">
+            <nav class="main-nav">
+                <ul class="menu sf-arrows">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class=""><a href="#">Collection</a></li>
+                    <li class=""><a href="#">Clothing</a></li>
+                    <li class=""><a href="#">Bag</a></li>
+                    <li class=""><a href="#">Shoes</a></li>
+                    <li class=""><a href="#">Accessories</a></li>
+                    <!-- <li class="float-right"><a href="#">Buy Porto!</a></li>
+                    <li class="float-right"><a href="#">Special Offer!</a></li> -->
+                </ul>
+            </nav>
+        </div><!-- End .header-bottom -->
+    </div><!-- End .header-bottom -->
+</header>
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+            <div class="search-section">
+                <div class="container">
+                    <h4>Your search results</h4>
+                    <div class="searcr-bar">
+                        <ul class="cart-summary">
+                            <li class="item-list">
+                                <h4>
+                                    <a data-toggle="collapse" href="#category" class="collapsed" role="button"
+                                        aria-expanded="false" aria-controls="category">Category</a>
+                                </h4>
+                                <ul class="collapse" id="category">
+                                    <li><a href="">111</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="item-list">
+                                <h4>
+                                    <a data-toggle="collapse" href="#brand" class="collapsed" role="button"
+                                        aria-expanded="false" aria-controls="brand">Brand</a>
+                                </h4>
+                                <ul class="collapse" id="brand">
+                                    <li><a href="">111</a></li>
+                                </ul>
+                            </li>
+                            <li class="item-list">
+                                <h4>
+                                    <a data-toggle="collapse" href="#size" class="collapsed" role="button"
+                                        aria-expanded="false" aria-controls="size">Size</a>
+                                </h4>
+                                <ul class="collapse" id="size">
+                                    <li><a href="">111</a></li>
+                                </ul>
+                            </li>
+                            <li class="item-list">
+                                <h4>
+                                    <a data-toggle="collapse" href="#color" class="collapsed" role="button"
+                                        aria-expanded="false" aria-controls="color">Color</a>
+                                </h4>
+                                <ul class="collapse" id="color">
+                                    <li><a href="">111</a></li>
+                                </ul>
+                            </li>
+                            <li class="item-list">
+                                <h4>
+                                    <a data-toggle="collapse" href="#price" class="collapsed" role="button"
+                                        aria-expanded="false" aria-controls="price">Price</a>
+                                </h4>
+                                <ul class="collapse" id="price">
+                                    <li><a href="">111</a></li>
+                                </ul>
+                            </li>
+
+
+
+                        </ul><!-- End .cart-summary -->
+                    </div>
+                    <hr class="line">
+                    <div class="sort-by">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <div class="col-3 no-padding">
+                                            <p class="label">Sort by</p>
+                                        </div>
+                                        <div class="col-8">
+                                            <select id="sort-by">
+                                                <option value="hide">Fetaured</option>
+                                                <option value="1" rel="icon-temperature">Fetaured</option>
+                                                <option value="2">Fetaured</option>
+                                                <option value="3">Fetaured</option>
+                                                <option value="4">Fetaured</option>
+                                                <option value="5">Fetaured</option>
+                                                <option value="6">Fetaured</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                        <div class="row">
+                                            <div class="col-4">
+                                               <p class="label">View</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <select id="sort-by">
+                                                    <option value="hide">100</option>
+                                                    <option value="1" rel="icon-temperature">100</option>
+                                                    <option value="2">200</option>
+                                                    <option value="3">300</option>
+                                                    <option value="4">400</option>
+                                                  
+    
+                                                </select>
+                                            </div>
+                                        </div>
+                                </div>
+                                    <div class="col-md-8 text-right no-padding">
+                                        <p class="label">5 items in Bangkok</p>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="our-container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_6.png" alt="">
+                                            <div class="label-product">Best seller</div>
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Hunter Original moulded slides in black
+                                            </p>
+                                            <p class="price-product">£ 1,600.35 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_7.png" alt="">
+                                            <div class="label-product">Sale</div>
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Nike Football England World Cup Squad
+                                                y</p>
+                                            <p class="price-product">£ 2,600.35 / Da</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_8.png" alt="">
+                                            <div class="label-product">New</div>
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Tall off shoulder ruffle playsuit with
+                                            </p>
+                                            <p class="price-product">£ 9,600.35 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_9.png" alt="">
+                                            <div class="label-product">Out of stock</div>
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Reebok Strappy Bra In Coral
+            
+                                            </p>
+                                            <p class="price-product"> £ 1,500.35 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_10.png" alt="">
+                                            <div class="label-product">Out of stock</div>
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">denim co-ord puff sleeve crop top
+            
+                                            </p>
+                                            <p class="price-product"> £ 1,230.00 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_11.png" alt="">
+                                            <!-- <div class="label-product">Best seller</div> -->
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Fashion Union slim trousers
+                                            </p>
+                                            <p class="price-product"> £ 900.50 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_12.png" alt="">
+                                            <!-- <div class="label-product">Best seller</div> -->
+                                        </div>
+                                        <div class="content">
+                                            <p class="name-product">Closet London longline tunic top co-ord
+                                            </p>
+                                            <p class="price-product">£ 2,300.35 / Day</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="img-content">
+                                            <img src="./images/blog/home/pic_13.png" alt="">
+                                            <div class="label-product">Best seller</div>
+                                        </div>
+            
+                                        <div class="content">
+                                            <p class="name-product">headband with twist front in polka dots
+                                            </p>
+                                            <p class="price-product"> £ 600.00 / Day</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- End .container -->
+                        </div>
+                </div>
+            </div>
+
+        </main>
+        <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+        <footer class="footer">
+    <div class="top-footer">
+        <div class="container">
+            <div class="foot-icon-list">
+                <button class="list-icon icon-list-instagram">
+                    <img src="./images/icons/instagram@2x.png" alt="">
+                </button>
+                <button class="list-icon icon-list-facebook">
+                    <img src="./images/icons/facebook@2x.png" alt="">
+                </button>
+                <button class="list-icon icon-list-alert">
+                    <img src="./images/icons/snapchat@2x.png" alt="">
+                </button>
+                <button class="list-icon icon-list-twitter">
+                    <img src="./images/icons/twitter@2x.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-top">
+
+            <div class="widget widget-newsletter">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4 class="widget-title">News letter</h4>
+                        <p>Get all the latest information on Events,Sales and Offers. Sign up for newsletter today</p>
+                    </div><!-- End .col-lg-6 -->
+
+                    <div class="col-lg-6">
+                        <form action="#">
+                            <input type="email" class="form-control" placeholder="Email address" required>
+
+                            <input type="submit" class="btn" value="Subscribe">
+                        </form>
+                    </div><!-- End .col-lg-6 -->
+                </div><!-- End .row -->
+            </div><!-- End .widget -->
+
+        </div><!-- End .footer-top -->
+    </div><!-- End .container -->
+
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="widget">
+                                <h4 class="widget-title">CUSTOMER CARE</h4>
+                                <ul class="links">
+                                    <li><a href="#">Account details </a></li>
+                                    <li><a href="#"> Payment details </a></li>
+                                    <li><a href="#">Transaction History</a></li>
+                                    <li><a href="#">Feedback</a></li>
+                                    <li><a href="#">Size Guide</a></li>
+                                </ul>
+
+                            </div><!-- End .widget -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="widget">
+                                <h4 class="widget-title">Infomation</h4>
+                                <ul class="links">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Consumer Care</a></li>
+                                    <li><a href="#">Returns & Exchanges</a></li>
+                                    <li><a href="#">Frequently asked questions</a></li>
+
+
+                                </ul>
+                            </div><!-- End .widget -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="widget">
+                                <h4 class="widget-title">Profile</h4>
+                                <ul class="links">
+                                    <li><a href="#">My account</a></li>
+                                    <li><a href="#"> Check out</a></li>
+                                    <li><a href="#"> Cart</a></li>
+                                    <li><a href="#"> My favourites</a></li>
+                                    <li><a href="#">Help & support</a></li>
+                                </ul>
+                            </div><!-- End .widget -->
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+
+                        <p class="footer-copyright">Copyright © 2019 Trendfluent. All rights reserved. </p>
+                        <!-- <img src="./images/payments.png" alt="payment methods" class="footer-payments"> -->
+
+
+                    </div><!-- End .footer-bottom -->
+                </div><!-- End .col-lg-6 -->
+
+                <div class="col-lg-6">
+                    <p>Follow us at instragram</p>
+                    <div class="row">
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-3@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-9@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-6@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-5@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-4@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+                        <div class="col-md-3 mt-10px padLR-5px">
+                            <img src="./images/blog/footer/rectangle-copy-8@2x.png" alt="">
+                        </div><!-- End .col-md-3 -->
+
+
+                    </div><!-- End .row -->
+
+
+                </div><!-- End .col-lg-6 -->
+            </div><!-- End .row -->
+
+        </div><!-- End .container -->
+    </div><!-- End .footer-middle -->
+
+</footer><!-- End .footer -->
+    </div>
+
+    <!-- Plugins JS File -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/plugins.min.js"></script>
+<script src="http://localhost:35729/livereload.js?snipver=1"></script>
+<!-- Main JS File -->
+<script src="./js/main.js"></script>
+<script src="./js/active.js"></script>
+    <script>
+            $('select').each(function () {
+                var $this = $(this), numberOfOptions = $(this).children('option').length;
+    
+                $this.addClass('select-hidden');
+                $this.wrap('<div class="select"></div>');
+                $this.after('<div class="select-styled"></div>');
+    
+                var $styledSelect = $this.next('div.select-styled');
+                $styledSelect.text($this.children('option').eq(0).text());
+    
+                var $list = $('<ul />', {
+                    'class': 'select-options'
+                }).insertAfter($styledSelect);
+    
+                for (var i = 0; i < numberOfOptions; i++) {
+                    $('<li />', {
+                        text: $this.children('option').eq(i).text(),
+                        rel: $this.children('option').eq(i).val()
+                    }).appendTo($list);
+                }
+    
+                var $listItems = $list.children('li');
+    
+                $styledSelect.click(function (e) {
+                    e.stopPropagation();
+                    $('div.select-styled.active').not(this).each(function () {
+                        $(this).removeClass('active').next('ul.select-options').hide();
+                    });
+                    $(this).toggleClass('active').next('ul.select-options').toggle();
+                });
+    
+                $listItems.click(function (e) {
+                    e.stopPropagation();
+                    $styledSelect.text($(this).text()).removeClass('active');
+                    $this.val($(this).attr('rel'));
+                    $list.hide();
+                    //console.log($this.val());
+                });
+    
+                $(document).click(function () {
+                    $styledSelect.removeClass('active');
+                    $list.hide();
+                });
+    
+            });</script>
+</body>

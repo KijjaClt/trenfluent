@@ -1,4 +1,6 @@
 // Base
+// @import url('../../fonts/Amithen.ttf');
+
 html {
   font-size: 62.5%;
   font-size-adjust: 100%;
@@ -8,15 +10,19 @@ html {
 
 body {
   background-color: #fff;
-  color: $body-text;
+  color: $dark-color;
   font: normal 400 #{$font-size} / 1.8 $font-family;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-
+  
   &:not(.loaded) > *:not(.loading-overlay) {
     visibility: hidden;
   }
+}
+
+.amithen-font{
+    font-family: 'Amithen';
 }
 
 ::-moz-selection {
@@ -170,4 +176,79 @@ img {
     -webkit-animation-delay: -.16s;
     animation-delay: -.16s;
   }
+}
+
+.btn {
+  height: auto !important;
+  
+}
+.breadcrumb-nav{
+  background:$bg-gray-2;
+  // margin-top: 10px;
+  padding: 15px 0;
+ 
+  .breadcrumb{
+    background-color:$bg-gray-2;
+    .breadcrumb-item{
+      font-size: 20px;
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+  
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  font-size: 20px !important;
+}
+.search-section{
+  padding: 30px 0;
+}
+.mfp-container{
+  background: $white-color;
+  .mfp-content{
+    max-width: 1000px;
+    // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+.padLR-70px{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.mt-20px{
+  margin-top: 20px;
+}
+button{
+  &:focus{
+      outline: none;
+      box-shadow: none;
+  }
+  &:hover{
+      cursor: pointer;
+  }
+}
+#scroll-top{
+  position: fixed;
+  right: 45px;
+  bottom: 0px;
+  width: 50px;
+  height: 37px;
+  padding: 11px 0;
+}
+.btn-close{
+  background: transparent;
+  border:none;
+  outline: none;
+  box-shadow: none;
+  width: 30px;
+  height: 30px;
+  &:focus{
+      border:none;
+      outline: none;
+      box-shadow: none; 
+  }
+  &:hover{
+      cursor: pointer;
+  }
+
 }

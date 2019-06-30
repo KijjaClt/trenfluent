@@ -5,41 +5,39 @@
 <body>
     <div class="page-wrapper">
         @@include('./include/nav.html')
-        <main class="main">
+        <main class="main home-content bg-white">
+            <div class="side-icon-list">
+                <button class="list-icon bell-icon"></button>
+                <button class="list-icon message-icon"></button>
+                <button class="list-icon user-icon"></button>
+            </div>
+            @@include('profile-popup.html')
+            @@include('profile-login-popup.html')
+           
             <div class="home-slider-container">
                 <div class="home-slider owl-carousel owl-theme owl-theme-light">
                     <div class="home-slide">
-                        <div class="slide-bg owl-lazy" data-src="/images/slider/slide-1.jpg"></div>
+                        <div class="slide-bg owl-lazy" data-src="./images/banners/bg.png"></div>
                         <!-- End .slide-bg -->
                         <div class="container">
                             <div class="home-slide-content">
-                                <div class="slide-border-top">
-                                    <!-- <img src="/images/slider/border-top.png" alt="Border" width="290" height="38"> -->
-                                </div><!-- End .slide-border-top -->
-                                <h3>80% off for select items</h3>
-                                <h1>fashion mega sale</h1>
-                                <a href="#" class="btn btn-dark">Shop Now</a>
+                                <p class="text-right amithen-font first-title">Bag collection end season</p>
+                                <h1 class="text-right ">Lorgache fluent</h1>
+                                <hr class="line">
+                                <p class=" description text-right w-90 mt-30 mb-45">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim </p>
+
+                                <div class="text-right">
+                                    <a href="#" class="btn btn-dark">rent the trend</a>
+
+                                </div>
 
                             </div><!-- End .home-slide-content -->
                         </div><!-- End .container -->
                     </div><!-- End .home-slide -->
-
-                    <div class="home-slide">
-                        <div class="slide-bg owl-lazy" data-src="/images/slider/slide-2.jpg"></div>
-                        <!-- End .slide-bg -->
-                        <div class="container">
-                            <div class="row justify-content-end">
-                                <div class="col-8 col-md-6 text-center slide-content-right">
-                                    <div class="home-slide-content">
-                                        <h3>up to 70% off</h3>
-                                        <h1>Women's Hats</h1>
-                                        <a href="category.html" class="btn btn-primary">Shop Now</a>
-                                    </div><!-- End .home-slide-content -->
-                                </div><!-- End .col-lg-5 -->
-                            </div><!-- End .row -->
-                        </div><!-- End .container -->
-                    </div><!-- End .home-slide -->
                 </div><!-- End .home-slider -->
+
             </div><!-- End .home-slider-container -->
             <div class="featured-products-section ">
                 <div class="container">
@@ -48,20 +46,20 @@
                         <div class="col-12 col-md-6">
                             <div class="product">
                                 <figure class="product-image-container">
-                                    <a href="product.html" class="product-image">
-                                        <img src="https://via.placeholder.com/380x460" alt="product">
+                                    <a href="#" class="product-image">
+                                        <img src="./images/blog/home/pic.png" alt="product">
                                     </a>
                                     <a href="ajax/product-quick-view.html" class="btn-quickview">Quickview</a>
                                 </figure>
                                 <div class="product-details">
                                     <h2 class="product-title">
-                                        <a href="product.html">FESTIVAL</a>
+                                        <a href="#">FESTIVAL</a>
                                     </h2>
                                     <div class="price-box">
                                         <span class="product-price">Be seen</span>
                                     </div><!-- End .price-box -->
                                     <div class="product-action">
-                                        <a href="product.html" class="paction add-cart">
+                                        <a href="#" class="add-cart btn-dark">
                                             <span>SHOW COLLECTION</span>
                                         </a>
                                     </div><!-- End .product-action -->
@@ -72,7 +70,7 @@
                             <div class="product mar-left">
                                 <figure class="product-image-container">
                                     <a href="#" class="product-image">
-                                        <img src="https://via.placeholder.com/380x460" alt="product">
+                                        <img src="./images/blog/home/pic_5.png" alt="product">
                                     </a>
                                     <!-- <a href="ajax/product-quick-view.html" class="btn-quickview">Quickview</a> -->
                                 </figure>
@@ -85,7 +83,7 @@
                                     </div><!-- End .price-box -->
 
                                     <div class="product-action">
-                                        <a href="#" class="paction add-cart">
+                                        <a href="#" class="btn-dark add-cart">
                                             <span>RENT NOW</span>
                                         </a>
                                     </div><!-- End .product-action -->
@@ -98,31 +96,28 @@
                 </div><!-- End .container -->
             </div><!-- End .featured-proucts-section -->
             <div class="partners-container">
-                <h2 class="text-center partners-title">Look what they love on this colletion</h2>
-                <h3 class="text-center partners-sub-title">Shop your favorite look from Trendfluent <a href="">View
-                        More</a></h3>
+                <h4 class="text-center partners-title">Look what they love on this colletion</h4>
+                <h5 class="text-center partners-sub-title">Shop your favorite look from Trendfluent <a href="">View
+                        More</a></h5>
                 <div class="container">
                     <div class="partners-carousel owl-carousel owl-theme">
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_2.png" alt="logo">
                         </a>
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_3.png" alt="logo">
                         </a>
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_4.png" alt="logo">
                         </a>
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_2.png" alt="logo">
                         </a>
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_3.png" alt="logo">
                         </a>
                         <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
-                        </a>
-                        <a href="#" class="partner">
-                            <img src="http://via.placeholder.com/300x460" alt="logo">
+                            <img src="./images/blog/home/pic_4.png" alt="logo">
                         </a>
                     </div><!-- End .partners-carousel -->
                 </div><!-- End .container -->
@@ -130,7 +125,11 @@
             <div class="promo-section">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img src="http://via.placeholder.com/900x600" alt="">
+                        <!-- <img src="http://via.placeholder.com/900x600" alt=""> -->
+                        <div class="video" id="video_container">
+                            <a class="far fa-play-circle" href="#"></a><img class="thumbs" />
+                            <div class="video-container"></div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="content">
@@ -146,104 +145,167 @@
             </div><!-- End .promo-section -->
             <div class="mb-5"></div><!-- margin -->
             <div class="our-container">
-                <h2 class="text-center our-title">Don't wait our best</h2>
-                <h3 class="text-center our-sub-title">Shop our best rent now from Trendfluent <a href="">View More</a>
-                </h3>
+                <h4 class="text-center our-title">Don't wait our best</h4>
+                <h5 class="text-center our-sub-title">Shop our best rent now from Trendfluent <a href="">View More</a>
+                </h5>
                 <div class="container">
                     <div class="row">
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
+                                <img src="./images/blog/home/pic_6.png" alt="">
                                 <div class="label-product">Best seller</div>
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Hunter Original moulded slides in black
+                                </p>
+                                <p class="price-product">£ 1,600.35 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_7.png" alt="">
+                                <div class="label-product">Sale</div>
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Nike Football England World Cup Squad
+                                    y</p>
+                                <p class="price-product">£ 2,600.35 / Da</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_8.png" alt="">
+                                <div class="label-product">New</div>
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Tall off shoulder ruffle playsuit with
+                                </p>
+                                <p class="price-product">£ 9,600.35 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_9.png" alt="">
+                                <div class="label-product">Out of stock</div>
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Reebok Strappy Bra In Coral
+
+                                </p>
+                                <p class="price-product"> £ 1,500.35 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_10.png" alt="">
+                                <div class="label-product">Out of stock</div>
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">denim co-ord puff sleeve crop top
+
+                                </p>
+                                <p class="price-product"> £ 1,230.00 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_11.png" alt="">
+                                <!-- <div class="label-product">Best seller</div> -->
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Fashion Union slim trousers
+                                </p>
+                                <p class="price-product"> £ 900.50 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
-                                <div class="label-product">Best seller</div>
+                                <img src="./images/blog/home/pic_12.png" alt="">
+                                <!-- <div class="label-product">Best seller</div> -->
                             </div>
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">Closet London longline tunic top co-ord
+                                </p>
+                                <p class="price-product">£ 2,300.35 / Day</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="img-content">
-                                <img src="http://via.placeholder.com/260x380" alt="">
+                                <img src="./images/blog/home/pic_13.png" alt="">
                                 <div class="label-product">Best seller</div>
                             </div>
 
                             <div class="content">
-                                <p class="name-product">Black Slippers</p>
-                                <p class="price-product">$17.90/Day</p>
+                                <p class="name-product">headband with twist front in polka dots
+                                </p>
+                                <p class="price-product"> £ 600.00 / Day</p>
                             </div>
                         </div>
                     </div>
                 </div><!-- End .container -->
             </div>
             <div class="mb-5"></div><!-- margin -->
+            <div class="promo-banner-section">
+                <div class="container">
+                    <div class="promotion-banner-content">
+                        <h1>Up to 40%</h1>
+                        <h3 class="mb-20">Off Fresh drop</h3>
+                        <p>Limited time only, selected styles marked down on site</p>
+                        <a href="" class="btn btn-dark mt-30">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5"></div><!-- margin -->
+            <div class="category-section">
+                <div class="container">
+                    <h4 class="text-center">SHOP BY CATEGORY</h4>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic_14.png" alt="">
+                                <p>Dress</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic_15.png" alt="">
+                                <p>Shoes</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic-copy.png" alt="">
+                                <p>TOPS</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic-copy-2.png" alt="">
+                                <p>SKIRTS</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic-copy-3.png" alt="">
+                                <p>SWIMWEAR</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cate-box">
+                                <img src="./images/blog/home/pic-copy-4.png" alt="">
+                                <p>PETITE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5"></div>
 
 
         </main><!-- End .main -->
+        <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
         @@include('./include/footer.html')
     </div>
-
-    <!-- <div class="overlay"></div> -->
-    <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
     @@include('./include/include_js.html')
-
+    
 </body>

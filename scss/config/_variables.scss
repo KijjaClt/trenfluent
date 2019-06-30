@@ -1,5 +1,19 @@
+//font-face
+@font-face {
+    font-family: 'Amithen';
+    src: url('../fonts/Amithen.ttf')  format('truetype'); /* Safari, Android, iOS */
+   
+  }
+  @font-face {
+    font-family: 'roboto';
+    src: url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet')  format('truetype'); /* Safari, Android, iOS */
+   
+  }
+  
+
+
 // Variables
-$font-size: 1.4rem !default;
+$font-size: 1.8rem !default;
 $sidebar-font-size: 1.4rem !default;
 $footer-font-size: 1.3rem !default;
 $input-font-size: 1.4rem !default;
@@ -11,6 +25,7 @@ $secondary-color: #282d3b !default;
 $secondary-color-dark: #2f3946 !default;
 $link-color: $primary-color !default;
 
+
 $border-radius: 0 !default;
 $white-color:#fff !default;
 $body-text: #7a7d82 !default;
@@ -18,9 +33,17 @@ $light-text: #8a8a8a !default;
 $headings-text: #2b2b2d !default;
 $gray-text:#dbe0e2 !default;
 $bg-gray:#ececec !default;
+$bg-gray-2:#f6f6f6;
+$dark-color:#000 !default;
+$line-color:#979797;
+$footer-color:#f1f1f1;
+$bg-header:#e4e4e4;
 
-$font-family: 'Open Sans', sans-serif !default;
-$second-font-family: 'Oswald', sans-serif !default;
+$font-family: SugoProClassic-ExtraLight; 
+$font-family-second: Amithen;
+$font-family-third: 'Roboto', sans-serif;
+// $font-family: 'Open Sans', sans-serif !default;
+// $font-family: 'Oswald', sans-serif !default;
 
 $breakpoints: (xs: 480px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px, xlst: 1920px);
 
